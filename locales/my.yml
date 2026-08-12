@@ -1,3 +1,394 @@
-# Burmese locale
-# English fallback is configured via vue-i18n.
-{}
+home:
+  categories:
+    newestTools: 'အသစ်ဆုံး ကိရိယာများ'
+    favoriteTools: 'သင်အနှစ်သက်ဆုံး ကိရိယာများ'
+    allTools: 'ကိရိယာအားလုံး'
+    favoritesDndToolTip: 'အနှစ်သက်ဆုံးများကို ပြန်လည်စီစဉ်ရန် ဖိဆွဲပါ'
+  subtitle: 'ဆော့ဖ်ဝဲရေးသားသူများအတွက် အသုံးဝင်သော ကိရိယာများ'
+  toggleMenu: 'မီနူး ဖွင့်/ပိတ်'
+  home: 'ပင်မစာမျက်နှာ'
+  uiLib: 'UI Lib'
+  support: 'IT-Tools ဖွံ့ဖြိုးတိုးတက်မှုကို ပံ့ပိုးပါ'
+  buyMeACoffee: 'ကော်ဖီတစ်ခွက် ဝယ်ကျွေးပါ'
+  follow:
+    title: 'it-tools ကို နှစ်သက်ပါသလား?'
+    p1: 'ကျွန်ုပ်တို့ကို star တစ်ခု ပေးပါ'
+    githubRepository: 'IT-Tools GitHub repository'
+    p2: 'သို့မဟုတ် ကျွန်ုပ်တို့ကို follow လုပ်ပါ'
+    twitterXAccount: 'IT-Tools X အကောင့်'
+    thankYou: 'ကျေးဇူးတင်ပါသည်!'
+  nav:
+    github: 'GitHub repository'
+    githubRepository: 'IT-Tools GitHub repository'
+    twitterX: 'X အကောင့်'
+    twitterXAccount: 'IT Tools X အကောင့်'
+    about: 'IT-Tools အကြောင်း'
+    aboutLabel: 'အကြောင်း'
+    darkMode: 'အမှောင်ဆက်တင်'
+    lightMode: 'အလင်းဆက်တင်'
+    mode: 'အမှောင်/အလင်း ဆက်တင် ပြောင်းရန်'
+about:
+  content: >
+    # IT-Tools အကြောင်း
+
+    ဤအံ့ဖွယ်ကောင်းသော ဝဘ်ဆိုက်ကို [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) မှ ❤ ဖြင့် ပြုလုပ်ထားပြီး၊ developer များနှင့် IT ကဏ္ဍတွင် လုပ်ကိုင်သူများအတွက် အသုံးဝင်သော ကိရိယာများကို စုစည်းထားသည်။ အသုံးဝင်သည်ဟု ယူဆပါက၊ အသုံးဝင်နိုင်သူများနှင့် မျှဝေပေးပါ၊ သင့် shortcut bar တွင် bookmark လုပ်ထားရန် မမေ့ပါနှင့်!
+
+    IT Tools သည် open-source (GPL-3.0 license အောက်တွင်) ဖြစ်ပြီး အခမဲ့ဖြစ်ပြီး၊ ဆက်လက်၍လည်း အခမဲ့ပင် ဖြစ်နေမည်ဖြစ်သော်လည်း၊ host လုပ်ရန်နှင့် domain name ကို renew လုပ်ရန် ကုန်ကျစရိတ်ရှိသည်။ ကျွန်ုပ်၏ လုပ်ငန်းကို ပံ့ပိုးလိုပြီး ကိရိယာများ ပိုမိုထည့်သွင်းရန် အားပေးလိုပါက၊ [sponsor လုပ်ခြင်း](https://www.buymeacoffee.com/cthmsst) ဖြင့် ပံ့ပိုးပေးရန် စဉ်းစားပေးပါ။
+
+    ## နည်းပညာများ
+
+    IT Tools ကို Vue.js (Vue 3) ဖြင့် Naive UI component library နှင့်အတူ ပြုလုပ်ထားပြီး Vercel မှ host လုပ်ပြီး ဆက်တိုက် deploy လုပ်ပေးထားသည်။ ကိရိယာအချို့တွင် third-party open-source library များကို အသုံးပြုထားပြီး၊ repository ၏ [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) ဖိုင်တွင် အပြည့်အစုံစာရင်းကို ရှာတွေ့နိုင်သည်။
+
+    ## Bug တွေ့ပါသလား? ကိရိယာတစ်ခု ပျောက်နေပါသလား?
+
+    လက်ရှိတွင် မရှိသေးသော ကိရိယာတစ်ခု လိုအပ်ပြီး၊ အသုံးဝင်နိုင်သည်ဟု ထင်မြင်ပါက၊ GitHub repository ၏ [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) တွင် feature request တစ်ခု တင်သွင်းနိုင်ပါသည်။
+
+    Bug တစ်ခု တွေ့ရှိပါက၊ သို့မဟုတ် မျှော်လင့်ထားသလို အလုပ်မလုပ်ပါက၊ GitHub repository ၏ [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) တွင် bug report တစ်ခု တင်သွင်းပေးပါ။
+
+404:
+  notFound: '404 ရှာမတွေ့ပါ'
+  sorry: 'စိတ်မကောင်းပါဘူး၊ ဤစာမျက်နှာ မရှိပုံပေါ်ပါသည်'
+  maybe: 'Cache က ပြဿနာဖြစ်နေတာလား၊ force-refresh လုပ်ကြည့်ပါ?'
+  backHome: 'ပင်မစာမျက်နှာ ပြန်သွားရန်'
+favoriteButton:
+  remove: 'အနှစ်သက်ဆုံးများမှ ဖယ်ရှားရန်'
+  add: 'အနှစ်သက်ဆုံးများသို့ ထည့်ရန်'
+toolCard:
+  new: အသစ်
+search:
+  label: ရှာဖွေရန်
+tools:
+  categories:
+    favorite-tools: 'သင်အနှစ်သက်ဆုံး ကိရိယာများ'
+    crypto: ခရစ်တို
+    converter: ပြောင်းလဲကိရိယာ
+    web: ဝဘ်
+    images and videos: 'ပုံနှင့် ဗီဒီယို'
+    development: ဖွံ့ဖြိုးရေး
+    network: ကွန်ရက်
+    math: သင်္ချာ
+    measurement: တိုင်းတာမှု
+    text: စာသား
+    data: ဒေတာ
+
+  password-strength-analyser:
+    title: 'စကားဝှက် ခိုင်မာမှု ခွဲခြမ်းစိတ်ဖြာစနစ်'
+    description: 'Client-side တွင်သာ လုပ်ဆောင်သော ဤစကားဝှက် ခိုင်မာမှု ခွဲခြမ်းစိတ်ဖြာရေးနှင့် crack time ခန့်မှန်းချက် ကိရိယာဖြင့် သင့်စကားဝှက်၏ ခိုင်မာမှုကို စမ်းသပ်ကြည့်ပါ။'
+
+  chronometer:
+    title: အချိန်တိုင်းကိရိယာ
+    description: 'တစ်ခုခု၏ ကြာချိန်ကို စောင့်ကြည့်ပါ။ ရိုးရှင်းသော stopwatch လုပ်ဆောင်ချက်များ ပါဝင်သည့် အချိန်တိုင်းကိရိယာ။'
+
+  token-generator:
+    title: တိုကင် ထုတ်ပေးစနစ်
+    description: 'သင်လိုချင်သော စာလုံးများ၊ အက္ခရာအကြီး သို့မဟုတ် အသေး၊ ဂဏန်းများနှင့်/သို့မဟုတ် သင်္ကေတများဖြင့် ကျပန်း စာကြောင်း ထုတ်ပေးပါ။'
+
+    uppercase: 'အက္ခရာအကြီး (ABC...)'
+    lowercase: 'အက္ခရာအသေး (abc...)'
+    numbers: 'ဂဏန်းများ (123...)'
+    symbols: 'သင်္ကေတများ (!-;...)'
+    length: အရှည်
+    tokenPlaceholder: 'တိုကင်...'
+    copied: 'တိုကင်ကို clipboard သို့ ကူးယူပြီးပါပြီ'
+    button:
+      copy: ကူးယူရန်
+      refresh: ပြန်လည်ဆန်းသစ်ရန်
+  percentage-calculator:
+    title: 'ရာခိုင်နှုန်း တွက်စက်'
+    description: 'တန်ဖိုးတစ်ခုမှ တစ်ခုသို့၊ သို့မဟုတ် ရာခိုင်နှုန်းမှ တန်ဖိုးသို့ ရာခိုင်နှုန်းများကို လွယ်ကူစွာ တွက်ချက်ပါ။'
+
+  svg-placeholder-generator:
+    title: 'SVG placeholder ထုတ်ပေးစနစ်'
+    description: 'သင့်အက်ပလီကေးရှင်းများတွင် placeholder အဖြစ် အသုံးပြုရန် svg ပုံများ ထုတ်ပေးပါ။'
+
+  json-to-csv:
+    title: 'JSON မှ CSV သို့'
+    description: 'Header များကို အလိုအလျောက် ရှာဖွေဖော်ထုတ်ပြီး JSON ကို CSV သို့ ပြောင်းလဲပါ။'
+
+  camera-recorder:
+    title: 'ကင်မရာ ရိုက်ကူးစနစ်'
+    description: 'သင့် webcam သို့မဟုတ် ကင်မရာမှ ဓာတ်ပုံရိုက်ခြင်း သို့မဟုတ် ဗီဒီယို ရိုက်ကူးခြင်း ပြုလုပ်ပါ။'
+
+  keycode-info:
+    title: 'Keycode အချက်အလက်'
+    description: 'နှိပ်လိုက်သော key တစ်ခု၏ javascript keycode၊ code၊ location နှင့် modifier များကို ရှာဖွေပါ။'
+
+  emoji-picker:
+    title: 'Emoji ရွေးချယ်စနစ်'
+    description: 'Emoji များကို လွယ်ကူစွာ ကူးယူ ကပ်နိုင်ပြီး emoji တစ်ခုစီ၏ unicode နှင့် code point တန်ဖိုးများကို ရယူပါ။'
+
+  color-converter:
+    title: 'အရောင် ပြောင်းလဲကိရိယာ'
+    description: 'မတူညီသော ဖော်မတ်များ (hex, rgb, hsl နှင့် css name) အကြား အရောင်ကို ပြောင်းလဲပါ'
+
+  bcrypt:
+    title: Bcrypt
+    description: 'Bcrypt ကို အသုံးပြု၍ စာကြောင်းကို hash လုပ်ခြင်းနှင့် နှိုင်းယှဉ်ခြင်း။ Bcrypt သည် Blowfish cipher ကို အခြေခံသော စကားဝှက် hash လုပ်ခြင်း function တစ်ခုဖြစ်သည်။'
+
+  crontab-generator:
+    title: 'Crontab ထုတ်ပေးစနစ်'
+    description: 'Crontab ကို စစ်ဆေးပြီး ထုတ်ပေးကာ cron schedule ၏ လူသားနားလည်နိုင်သော ဖော်ပြချက်ကို ရယူပါ။'
+
+  http-status-codes:
+    title: 'HTTP status codes'
+    description: 'HTTP status code အားလုံး၏ စာရင်း၊ အမည်နှင့် အဓိပ္ပာယ်။'
+
+  sql-prettify:
+    title: 'SQL တင်ဆင်ခြင်းနှင့် ဖော်မတ်ချခြင်း'
+    description: 'သင့် SQL query များကို အွန်လိုင်းတွင် တင်ဆင်ပြီး ဖော်မတ်ချပါ (SQL dialect အမျိုးမျိုးကို ပံ့ပိုးသည်)။'
+
+  benchmark-builder:
+    title: 'Benchmark တည်ဆောက်စနစ်'
+    description: 'ဤရိုးရှင်းသော အွန်လိုင်း benchmark တည်ဆောက်စနစ်ဖြင့် task များ၏ လုပ်ဆောင်ချိန်ကို လွယ်ကူစွာ နှိုင်းယှဉ်ပါ။'
+
+  git-memo:
+    title: 'Git cheatsheet'
+    description: 'Git သည် ဗဟိုချုပ်ကိုင်မှုမရှိသော version management software တစ်ခုဖြစ်သည်။ ဤ cheatsheet ဖြင့် အသုံးများသော git command များကို လျင်မြန်စွာ အသုံးပြုနိုင်မည်။'
+
+  slugify-string:
+    title: 'Slugify string'
+    description: 'စာကြောင်းတစ်ခုကို url, filename နှင့် id အတွက် သင့်လျော်အောင် ပြုလုပ်ပါ။'
+
+  encryption:
+    title: 'စာသား ကုဒ်ဝှက်ခြင်း/ဖြေရှင်းခြင်း'
+    description: 'AES, TripleDES, Rabbit သို့မဟုတ် RC4 ကဲ့သို့သော crypto algorithm များကို အသုံးပြု၍ ရှင်းလင်းသောစာသားကို ကုဒ်ဝှက်ခြင်းနှင့် ciphertext ကို ဖြေရှင်းခြင်း။'
+
+  random-port-generator:
+    title: 'ကျပန်း port ထုတ်ပေးစနစ်'
+    description: '"လူသိများသော" port များ (0-1023) ၏ နယ်ပယ်အပြင်ဘက်မှ ကျပန်း port နံပါတ်များ ထုတ်ပေးပါ။'
+
+  yaml-prettify:
+    title: 'YAML တင်ဆင်ခြင်းနှင့် ဖော်မတ်ချခြင်း'
+    description: 'သင့် YAML စာကြောင်းကို လူသားနားလည်နိုင်သော ပုံစံအဖြစ် တင်ဆင်ပါ။'
+
+  eta-calculator:
+    title: 'ETA တွက်စက်'
+    description: 'Task တစ်ခု ပြီးဆုံးမည့်အချိန်ကို ခန့်မှန်းရန် ETA (Estimated Time of Arrival) တွက်စက်၊ ဥပမာ ဖိုင်ဒေါင်းလုဒ်ချသည့် ပြီးဆုံးချိန်နှင့် ကြာချိန်။'
+
+  roman-numeral-converter:
+    title: 'ရိုမန်ဂဏန်း ပြောင်းလဲကိရိယာ'
+    description: 'ရိုမန်ဂဏန်းများကို ဂဏန်းအဖြစ်သို့၊ ဂဏန်းများကို ရိုမန်ဂဏန်းအဖြစ်သို့ ပြောင်းလဲပါ။'
+
+  hmac-generator:
+    title: 'Hmac ထုတ်ပေးစနစ်'
+    description: 'လျှို့ဝှက် key တစ်ခုနှင့် သင်နှစ်သက်ရာ hashing function ကို အသုံးပြု၍ hash-based message authentication code (HMAC) ကို တွက်ချက်ပေးသည်။'
+
+  bip39-generator:
+    title: 'BIP39 passphrase ထုတ်ပေးစနစ်'
+    description: 'ရှိပြီးသား သို့မဟုတ် ကျပန်း mnemonic မှ BIP39 passphrase ထုတ်ပေးပါ၊ သို့မဟုတ် passphrase မှ mnemonic ကို ရယူပါ။'
+
+  base64-file-converter:
+    title: 'Base64 ဖိုင် ပြောင်းလဲကိရိယာ'
+    description: 'စာကြောင်း၊ ဖိုင် သို့မဟုတ် ပုံတစ်ပုံကို base64 ကိုယ်စားပြုမှုအဖြစ် ပြောင်းလဲပါ။'
+
+  list-converter:
+    title: 'List ပြောင်းလဲကိရိယာ'
+    description: 'ဤကိရိယာသည် column-based ဒေတာကို လုပ်ဆောင်နိုင်ပြီး row တစ်ခုစီအတွက် မတူညီသော ပြောင်းလဲမှုများ (transpose, prefix/suffix ထည့်ခြင်း၊ list ပြောင်းပြန်လှန်ခြင်း၊ list စီခြင်း၊ အက္ခရာအသေးသို့ ပြောင်းခြင်း၊ တန်ဖိုးများ ဖြတ်တောက်ခြင်း) ကို အသုံးချနိုင်သည်။'
+
+  base64-string-converter:
+    title: 'Base64 string encoder/decoder'
+    description: 'စာကြောင်းများကို base64 ကိုယ်စားပြုမှုအဖြစ် ရိုးရှင်းစွာ encode နှင့် decode ပြုလုပ်ပါ။'
+
+  toml-to-yaml:
+    title: 'TOML မှ YAML သို့'
+    description: 'TOML ကို YAML သို့ ဖတ်ယူပြီး ပြောင်းလဲပါ။'
+
+  math-evaluator:
+    title: 'သင်္ချာ တွက်ချက်စနစ်'
+    description: 'သင်္ချာဆိုင်ရာ ဖော်ပြချက်များကို တွက်ချက်ရန် calculator တစ်ခု။ sqrt, cos, sin, abs စသည့် function များကို အသုံးပြုနိုင်သည်။'
+
+  json-to-yaml-converter:
+    title: 'JSON မှ YAML ပြောင်းလဲကိရိယာ'
+    description: 'ဤအွန်လိုင်း live converter ဖြင့် JSON ကို YAML သို့ ရိုးရှင်းစွာ ပြောင်းလဲပါ။'
+
+  url-parser:
+    title: 'URL parser'
+    description: 'URL တစ်ခုကို အစိတ်အပိုင်းများ (protocol, origin, params, port, username-password, ...) အဖြစ် ခွဲခြမ်းပါ'
+
+  iban-validator-and-parser:
+    title: 'IBAN validator and parser'
+    description: 'IBAN နံပါတ်များကို စစ်ဆေးပြီး ခွဲခြမ်းပါ။ IBAN တစ်ခု မှန်ကန်မှုရှိမရှိ စစ်ဆေးပြီး နိုင်ငံ၊ BBAN၊ QR-IBAN ဟုတ်မဟုတ်နှင့် IBAN friendly format ကို ရယူပါ။'
+
+  user-agent-parser:
+    title: 'User-agent parser'
+    description: 'User-agent string တစ်ခုမှ Browser, Engine, OS, CPU နှင့် Device အမျိုးအစား/model ကို ရှာဖွေခွဲခြမ်းပါ။'
+
+  numeronym-generator:
+    title: 'Numeronym ထုတ်ပေးစနစ်'
+    description: 'Numeronym ဆိုသည်မှာ ဂဏန်းတစ်ခုကို အသုံးပြု၍ အတိုကောက်ဖွဲ့စည်းထားသော စကားလုံးဖြစ်သည်။ ဥပမာ "i18n" သည် "internationalization" ၏ numeronym ဖြစ်ပြီး 18 သည် i နှင့် n အကြား စာလုံးအရေအတွက်ကို ကိုယ်စားပြုသည်။'
+
+  case-converter:
+    title: 'Case ပြောင်းလဲကိရိယာ'
+    description: 'စာကြောင်းတစ်ခု၏ case ကို ပြောင်းလဲပြီး မတူညီသော ဖော်မတ်များကို ရွေးချယ်ပါ'
+
+  html-entities:
+    title: 'HTML entities များ Escape လုပ်ခြင်း'
+    description: HTML entities များကို escape သို့မဟုတ် unescape ပြုလုပ်ပါ (<,>, &, " နှင့် \' ကဲ့သို့သော စာလုံးများကို ၎င်းတို့၏ HTML version ဖြင့် အစားထိုးပါ)
+
+  json-prettify:
+    title: 'JSON တင်ဆင်ခြင်းနှင့် ဖော်မတ်ချခြင်း'
+    description: 'သင့် JSON စာကြောင်းကို လူသားနားလည်နိုင်သော ပုံစံအဖြစ် တင်ဆင်ပါ။'
+
+  docker-run-to-docker-compose-converter:
+    title: 'Docker run မှ Docker compose ပြောင်းလဲကိရိယာ'
+    description: '"docker run" command များကို docker-compose ဖိုင်များအဖြစ် ပြောင်းလဲပေးသည်!'
+
+  mac-address-lookup:
+    title: 'MAC address ရှာဖွေခြင်း'
+    description: 'Device တစ်ခု၏ MAC address ဖြင့် ထုတ်လုပ်သူနှင့် vendor ကို ရှာဖွေပါ။'
+
+  mime-types:
+    title: 'MIME types'
+    description: 'MIME type များကို ဖိုင် extension များအဖြစ်၊ ပြောင်းပြန်လည်း ပြောင်းလဲပါ။'
+
+  toml-to-json:
+    title: 'TOML မှ JSON သို့'
+    description: 'TOML ကို JSON သို့ ဖတ်ယူပြီး ပြောင်းလဲပါ။'
+
+  lorem-ipsum-generator:
+    title: 'Lorem ipsum ထုတ်ပေးစနစ်'
+    description: 'Lorem ipsum သည် အဓိပ္ပာယ်ရှိသော content ကို အားမကိုးဘဲ document သို့မဟုတ် typeface ၏ visual form ကို ပြသရန် အသုံးများသော placeholder စာသားဖြစ်သည်'
+
+  qrcode-generator:
+    title: 'QR Code ထုတ်ပေးစနစ်'
+    description: 'URL (သို့မဟုတ် ရိုးရိုးစာသား) အတွက် QR code ထုတ်ပေးပြီး ဒေါင်းလုဒ်လုပ်ပါ၊ နောက်ခံနှင့် ရှေ့ခံအရောင်များကို စိတ်ကြိုက်ပြင်ဆင်နိုင်သည်။'
+
+  wifi-qrcode-generator:
+    title: 'WiFi QR Code ထုတ်ပေးစနစ်'
+    description: 'WiFi network များသို့ လျင်မြန်စွာ ချိတ်ဆက်ရန် QR code များ ထုတ်ပေးပြီး ဒေါင်းလုဒ်လုပ်ပါ။'
+
+  xml-formatter:
+    title: 'XML ဖော်မတ်ချစနစ်'
+    description: 'သင့် XML စာကြောင်းကို လူသားနားလည်နိုင်သော ပုံစံအဖြစ် တင်ဆင်ပါ။'
+
+  temperature-converter:
+    title: 'အပူချိန် ပြောင်းလဲကိရိယာ'
+    description: 'Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur နှင့် Rømer တို့အတွက် အပူချိန် ဒီဂရီ ပြောင်းလဲမှုများ။'
+
+  chmod-calculator:
+    title: 'Chmod တွက်စက်'
+    description: 'ဤအွန်လိုင်း chmod တွက်စက်ဖြင့် သင့် chmod ခွင့်ပြုချက်များနှင့် command များကို တွက်ချက်ပါ။'
+
+  rsa-key-pair-generator:
+    title: 'RSA key pair ထုတ်ပေးစနစ်'
+    description: 'ကျပန်း RSA private နှင့် public pem certificate key pair အသစ်တစ်စုံ ထုတ်ပေးပါ။'
+
+  html-wysiwyg-editor:
+    title: 'HTML WYSIWYG editor'
+    description: 'Content ၏ source code ကို ချက်ချင်း ထုတ်ပေးသော အွန်လိုင်း၊ feature ကြွယ်ဝသော WYSIWYG HTML editor။'
+
+  yaml-to-toml:
+    title: 'YAML မှ TOML သို့'
+    description: 'YAML ကို TOML သို့ ဖတ်ယူပြီး ပြောင်းလဲပါ။'
+
+  mac-address-generator:
+    title: 'MAC address ထုတ်ပေးစနစ်'
+    description: 'အရေအတွက်နှင့် prefix ကို ထည့်သွင်းပါ။ MAC address များကို သင်ရွေးချယ်သော case (အက္ခရာအကြီး သို့မဟုတ် အသေး) ဖြင့် ထုတ်ပေးမည်'
+
+  json-diff:
+    title: 'JSON diff'
+    description: 'JSON object နှစ်ခုကို နှိုင်းယှဉ်ပြီး ၎င်းတို့အကြား ကွာခြားချက်များကို ရယူပါ။'
+
+  jwt-parser:
+    title: 'JWT parser'
+    description: 'သင့် JSON Web Token (jwt) ကို ဖတ်ယူ decode လုပ်ပြီး ၎င်း၏ content ကို ပြသပါ။'
+
+  date-converter:
+    title: 'Date-time ပြောင်းလဲကိရိယာ'
+    description: 'ရက်စွဲနှင့် အချိန်ကို မတူညီသော ဖော်မတ်အမျိုးမျိုးသို့ ပြောင်းလဲပါ'
+
+  phone-parser-and-formatter:
+    title: 'ဖုန်းနံပါတ် ခွဲခြမ်းစိတ်ဖြာခြင်းနှင့် ဖော်မတ်ချခြင်း'
+    description: 'ဖုန်းနံပါတ်များကို ခွဲခြမ်းစိတ်ဖြာခြင်း၊ စစ်ဆေးခြင်းနှင့် ဖော်မတ်ချခြင်း။ ဖုန်းနံပါတ်၏ နိုင်ငံကုဒ်၊ အမျိုးအစားစသော အချက်အလက်များကို ရယူပါ။'
+
+  ipv4-subnet-calculator:
+    title: 'IPv4 subnet တွက်စက်'
+    description: 'သင့် IPv4 CIDR block များကို ဖတ်ယူပြီး သင့် subnet အကြောင်း လိုအပ်သော အချက်အလက်အားလုံးကို ရယူပါ။'
+
+  og-meta-generator:
+    title: 'Open graph meta ထုတ်ပေးစနစ်'
+    description: 'သင့်ဝဘ်ဆိုက်အတွက် open-graph နှင့် socials HTML meta tag များ ထုတ်ပေးပါ။'
+
+  ipv6-ula-generator:
+    title: 'IPv6 ULA ထုတ်ပေးစနစ်'
+    description: 'RFC4193 အရ သင့်ကွန်ရက်အတွက် ကိုယ်ပိုင် local, non-routable IP address များ ထုတ်ပေးပါ။'
+
+  hash-text:
+    title: 'စာသား Hash လုပ်ခြင်း'
+    description: 'လိုအပ်သော function ဖြင့် စာသားစာကြောင်းကို hash လုပ်ပါ - MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 သို့မဟုတ် RIPEMD160'
+
+  json-to-toml:
+    title: 'JSON မှ TOML သို့'
+    description: 'JSON ကို TOML သို့ ဖတ်ယူပြီး ပြောင်းလဲပါ။'
+
+  device-information:
+    title: 'Device အချက်အလက်'
+    description: 'သင့်လက်ရှိ device (screen size, pixel-ratio, user agent, ...) အကြောင်း အချက်အလက်များကို ရယူပါ'
+
+  pdf-signature-checker:
+    title: 'PDF signature စစ်ဆေးခြင်း'
+    description: 'PDF ဖိုင်တစ်ခု၏ signature များကို စစ်ဆေးပါ။ လက်မှတ်ရေးထိုးထားသော PDF ဖိုင်တွင် ဖိုင်၏ content ကို လက်မှတ်ရေးထိုးပြီးနောက် ပြောင်းလဲထားခြင်း ရှိမရှိ ဆုံးဖြတ်ရန် အသုံးပြုနိုင်သည့် signature တစ်ခု သို့မဟုတ် တစ်ခုထက်ပို ပါဝင်သည်။'
+
+  json-minify:
+    title: 'JSON minify'
+    description: 'မလိုအပ်သော space များကို ဖယ်ရှားခြင်းဖြင့် သင့် JSON ကို minify နှင့် ချုံ့ပါ။'
+
+  ulid-generator:
+    title: 'ULID ထုတ်ပေးစနစ်'
+    description: 'ကျပန်း Universally Unique Lexicographically Sortable Identifier (ULID) ထုတ်ပေးပါ။'
+
+  string-obfuscator:
+    title: 'စာကြောင်း ဝှက်ထားခြင်း'
+    description: 'စာကြောင်းတစ်ခု (လျှို့ဝှက်ချက်၊ IBAN သို့မဟုတ် token ကဲ့သို့) ကို content မဖော်ဘဲ မျှဝေနိုင်ပြီး ခွဲခြားနိုင်စေရန် ဝှက်ထားပါ။'
+
+  base-converter:
+    title: 'ကိန်းပြည့် base ပြောင်းလဲကိရိယာ'
+    description: 'နံပါတ်တစ်ခုကို base အမျိုးမျိုး (decimal, hexadecimal, binary, octal, base64, ...) အကြား ပြောင်းလဲပါ'
+
+  yaml-to-json-converter:
+    title: 'YAML မှ JSON ပြောင်းလဲကိရိယာ'
+    description: 'ဤအွန်လိုင်း live converter ဖြင့် YAML ကို JSON သို့ ရိုးရှင်းစွာ ပြောင်းလဲပါ။'
+
+  uuid-generator:
+    title: 'UUID ထုတ်ပေးစနစ်'
+    description: 'Universally Unique Identifier (UUID) သည် ကွန်ပျူတာစနစ်များတွင် အချက်အလက်ကို ခွဲခြားသိရှိရန် အသုံးပြုသော 128-bit နံပါတ်တစ်ခုဖြစ်သည်။ ဖြစ်နိုင်သော UUID အရေအတွက်မှာ 16^32 ဖြစ်ပြီး 2^128 သို့မဟုတ် 3.4x10^38 ခန့်ရှိသည် (အများကြီးပါပဲ!)။'
+
+  ipv4-address-converter:
+    title: 'IPv4 address ပြောင်းလဲကိရိယာ'
+    description: 'IP address တစ်ခုကို decimal, binary, hexadecimal သို့မဟုတ် IPv6 ကိုယ်စားပြုမှုအဖြစ်ပါ ပြောင်းလဲပါ။'
+
+  text-statistics:
+    title: 'စာသား စာရင်းအင်း'
+    description: 'စာသားတစ်ခု၏ အက္ခရာအရေအတွက်၊ စကားလုံးအရေအတွက်၊ byte အရွယ်အစားစသော အချက်အလက်များကို ရယူပါ...'
+
+  text-to-nato-alphabet:
+    title: 'စာသားမှ NATO အက္ခရာသို့'
+    description: 'နှုတ်ဖြင့် ပြောဆိုပေးပို့ရန် စာသားကို NATO phonetic alphabet အဖြစ် ပြောင်းလဲပါ။'
+
+  basic-auth-generator:
+    title: 'Basic auth ထုတ်ပေးစနစ်'
+    description: 'Username နှင့် password မှ base64 basic auth header ထုတ်ပေးပါ။'
+
+  text-to-unicode:
+    title: 'စာသားမှ Unicode သို့'
+    description: 'စာသားကို unicode သို့ ဖတ်ယူပြောင်းလဲပါ၊ ပြန်လှန်၍လည်း ပြုလုပ်နိုင်သည်'
+
+  ipv4-range-expander:
+    title: 'IPv4 range ချဲ့ထွင်ခြင်း'
+    description: 'IPv4 address အစနှင့်အဆုံးကို ပေးလိုက်ပါက၊ ဤကိရိယာသည် ၎င်း၏ CIDR notation နှင့်အတူ မှန်ကန်သော IPv4 subnet ကို တွက်ချက်ပေးသည်။'
+
+  text-diff:
+    title: 'စာသား Diff'
+    description: 'စာသားနှစ်ခုကို နှိုင်းယှဉ်ပြီး ၎င်းတို့အကြား ကွာခြားချက်များကို ကြည့်ရှုပါ။'
+
+  otp-generator:
+    title: 'OTP code ထုတ်ပေးစနစ်'
+    description: 'Multi-factor authentication အတွက် time-based OTP (one time password) ကို ထုတ်ပေးပြီး စစ်ဆေးပါ။'
+
+  url-encoder:
+    title: 'URL ဖော်မတ် စာကြောင်းများကို Encode/decode ပြုလုပ်ခြင်း'
+    description: 'စာသားကို URL-encoded format ("percent-encoded" ဟုလည်းခေါ်သည်) အဖြစ် encode လုပ်ပါ၊ သို့မဟုတ် ၎င်းမှ decode ပြန်လုပ်ပါ။'
+
+  text-to-binary:
+    title: 'စာသားမှ ASCII binary သို့'
+    description: 'စာသားကို ASCII binary ကိုယ်စားပြုမှုအဖြစ် ပြောင်းလဲပါ၊ ပြန်လှန်၍လည်း ပြုလုပ်နိုင်သည်။'
